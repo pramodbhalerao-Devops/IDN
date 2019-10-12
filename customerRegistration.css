@@ -1,0 +1,58 @@
+body {
+	margin: 0 auto;
+	/* background-image: url("images/dal-tadka3.jpg"); */
+	background-repeat: no-repeat;
+	background-size: 100% 720px;
+	background-color: #666633;
+}
+
+.container {
+	width: 500px;
+	height: 400px;
+	text-align: center;
+	margin: :0 auto;
+	background-color: #999966;
+	margin-top: 100px;
+	margin-left: 350px;
+	border-radius: 4px;
+}
+
+.container img {
+	width: 120px;
+	height: 120px;
+	margin-top: -60px;
+	margin-right: 30px;
+}
+
+input[type="text"], input[type="password"] {
+	height: 25px;
+	width: 250px;
+	font-size: 15px;
+	margin-bottom: 20px;
+	background-color: #FFF;
+	padding-left: 10px;
+}
+
+.form-input::before {
+	position: absolute;;
+	font-family: "FontAwesome";
+	padding-left: 4px;
+	color: #9999ff;
+	padding-top: 10px;
+	font-size: 35px;
+}
+
+.container input[type="text"] {
+	margin-bottom: 10px;
+}
+
+.container input[type="password"] {
+	margin-bottom: 10px;
+}
+
+.btn-login {
+	height: 35px;
+	width: 70px;
+	background-color: border:none;
+	border-radius: 4px;
+}

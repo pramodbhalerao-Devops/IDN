@@ -1,0 +1,102 @@
+body
+  * {
+	margin: 0px;
+	padding: 0px;
+}
+
+{
+background
+
+
+:
+
+ 
+
+#ffbfbf
+
+
+;
+text-align
+
+
+:
+
+ 
+
+center
+
+
+;
+}
+.menutop nav ul {
+	margin-top: 10px;
+	list-style-type: none;
+}
+
+.menutop nav ul li {
+	float: right;
+}
+
+.menutop nav ul li a {
+	text-decoration: none;
+	color: darkorange;
+	font-size: 14px;
+	font-weight: bold;
+	padding: 14px 16px;
+}
+
+.companyName a {
+	float: left;
+	margin-left: 100px;
+	background: #ffe6e6;
+	padding: 10px;
+	margin-top: 60px;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 24px;
+}
+/*  .CompanyLogo img.resize {
+                         max-height: 150px;
+                         max-width: 900px;
+                         margin-left: -910px;
+                         margin-top: 10px;
+                         	cursor: pointer;
+            }
+             */
+.SearchBar #searchbox, #search, #submit {
+	float: left;
+	margin-left: 50px;
+	background: #ffe6e6;
+	padding: 10px;
+	margin-top: 20px;
+}
+
+.SearchBar #search {
+	width: 500px;
+	padding: 5px 9px;
+	height: 35px;
+	border-width: 1px;
+	font: normal 13px 'trebuchet MS', arial, helvetica;
+	background: #f1f1f1;
+	border-radius: 50px 3px 3px 50px;
+}
+
+.SearchBar #submit {
+	margin: 20px 0 0 10px;
+	padding: 0;
+	width: 90px;
+	height: 35px;
+	background: darkorange;
+	cursor: pointer;
+	font: bold 14px Arial, Helvetica;
+}
+
+#search:focus {
+	border-color: #8badb4;
+	background: #fff;
+	outline: none;
+}
+
+#submit:hover {
+	background: #ffbf00;
+}
